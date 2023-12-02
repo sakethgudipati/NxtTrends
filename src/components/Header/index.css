@@ -1,0 +1,67 @@
+.nav-element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.home-logo {
+  height: 38px;
+  width: 150px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.top-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+  text-decoration: none;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+  margin-top: 16px;
+  margin-right: 5px;
+}
+.logout-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 40px;
+  width: 120px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border-width: 0px;
+  background-color: #0b69ff;
+}
+.header-text {
+  font-weight: 'Roboto';
+  font-weight: 500;
+  color: #64748b;
+}
+.button-icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+.button-text {
+  color: white;
+  font-family: 'Roboto';
+}
+.logout-button:hover {
+  background-color: skyblue;
+  color: white;
+}
